@@ -1,7 +1,5 @@
 # Yeo_synapse_LLM
 
----
-
 ## Xenium Prime 5k Experiment Data Analysis
 
 This repository houses a series of Jupyter notebooks developed for the comprehensive analysis of Xenium Prime 5k experimental data. Each notebook in this project addresses a specific stage of the analysis pipeline—from converting raw data into efficient formats to performing advanced downstream analyses. The goal is to streamline the workflow and provide clarity at every step of the process.
@@ -23,8 +21,9 @@ This repository houses a series of Jupyter notebooks developed for the comprehen
     3. **Data Conversion:** Writes the loaded `SpatialData` object to the specified Zarr file.
     4. **Iteration:** Loops through directories in the input path to process multiple datasets by dynamically generating output file paths.
 
-- **Notebook Location:**  
-  [Xenium to Zarr Conversion Notebook](./analysis/Dylan/preprocess/xenium_to_sdata.ipynb)
+- **Notebook Location:** [Xenium to Zarr Conversion Notebook](./analysis/Dylan/preprocess/xenium_to_sdata.ipynb)
+
+---
 
 ### Notebook 2: Feature and Localization Analysis
 
@@ -41,8 +40,9 @@ This repository houses a series of Jupyter notebooks developed for the comprehen
     - Classifies gene transcripts into distinct localization patterns (Cell Edge, Cytoplasmic, Nuclear, Nuclear Edge, and None) using the RNAForest model.
     - Visualizes these patterns with an UpSet plot and a radar plot to compare gene-specific localization strengths.
 
-- **Notebook Location:**  
-  [Coronal 1 Cortex: Feature and Localization Analysis Notebook](./analysis/Dylan/bento_analysis/coronal1_cortex_localization_analysis.ipynb)
+- **Notebook Location:** [Coronal 1 Cortex: Feature and Localization Analysis Notebook](./analysis/Dylan/bento_analysis/coronal1_cortex_localization_analysis.ipynb)
+
+---
 
 ### Notebook 3: Synaptic Immunofluorescence Alignment
 
@@ -61,8 +61,9 @@ This repository houses a series of Jupyter notebooks developed for the comprehen
   - **Saving Results:**  
     - The processed SpatialData object is saved as a new Zarr file for downstream analysis.
 
-- **Notebook Location:**  
-  [Coronal 1 Cortex: Synaptic Immunofluorescence Alignment Notebook](./analysis/Dylan/alignment/coronal1_cortex_alignment.ipynb)
+- **Notebook Location:** [Coronal 1 Cortex: Synaptic Immunofluorescence Alignment Notebook](./analysis/Dylan/alignment/coronal1_cortex_alignment.ipynb)
+
+---
 
 ### Notebook 4: Synaptic Compartment Analysis
 
@@ -85,5 +86,4 @@ This repository houses a series of Jupyter notebooks developed for the comprehen
   - **Visualization:**  
     - Provides extensive visualizations including raw IF images, segmentation overlays, combined segmentation masks, and gene-specific transcript plots (e.g., for Dlg4) with scale bars and integrated visual elements.
 
-- **Notebook Location:**  
-  [Coronal 1 Cortex: Synaptic Compartment Analysis Notebook](./analysis/Dylan/analysis/coronal1_cortex_analysis.ipynb)
+- **Notebook Location:** [Coronal 1 Cortex: Synaptic Compartment Analysis Notebook](./analysis/Dylan/analysis/coronal1_cortex_analysis.ipynb)
