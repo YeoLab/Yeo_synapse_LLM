@@ -23,6 +23,8 @@ This repository houses a series of Jupyter notebooks developed for the comprehen
 
 - **Notebook Location:** [Xenium to Zarr Conversion Notebook](./analysis/Dylan/preprocess/xenium_to_sdata.ipynb)
 
+- **Yeo group**:
+  - Use `module load scverse/1.0.0_spatialdata0.2.6`
 ---
 
 ### Notebook 2: Feature and Localization Analysis
@@ -42,6 +44,8 @@ This repository houses a series of Jupyter notebooks developed for the comprehen
 
 - **Notebook Location:** [Coronal 1 Cortex: Feature and Localization Analysis Notebook](./analysis/Dylan/bento_analysis/coronal1_cortex_localization_analysis.ipynb)
 
+- **Yeo group**:
+  - Use `module load scverse/1.0.0_spatialdata0.2.6`
 ---
 
 ### Notebook 3: Synaptic Immunofluorescence Alignment
@@ -63,6 +67,8 @@ This repository houses a series of Jupyter notebooks developed for the comprehen
 
 - **Notebook Location:** [Coronal 1 Cortex: Synaptic Immunofluorescence Alignment Notebook](./analysis/Dylan/alignment/coronal1_cortex_alignment.ipynb)
 
+- **Yeo group**:
+  - Use `module load scverse/1.0.0_spatialdata0.2.6`
 ---
 
 ### Notebook 4: Synaptic Compartment Analysis
@@ -87,3 +93,14 @@ This repository houses a series of Jupyter notebooks developed for the comprehen
     - Provides extensive visualizations including raw IF images, segmentation overlays, combined segmentation masks, and gene-specific transcript plots (e.g., for Dlg4) with scale bars and integrated visual elements.
 
 - **Notebook Location:** [Coronal 1 Cortex: Synaptic Compartment Analysis Notebook](./analysis/Dylan/analysis/coronal1_cortex_analysis.ipynb)
+
+- **Yeo group**:
+  - Use `module load scverse/1.0.0_spatialdata0.2.6`
+ 
+### Notebook 5: Bento QC
+
+- **Purpose:**  
+  These notebooks use bento to perform basic QC plotting (eg. cell size, localization etc.)
+
+- **Yeo group**:
+  - Use `module load bento/3e82209`
